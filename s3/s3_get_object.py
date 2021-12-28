@@ -1,5 +1,5 @@
 ######################################################################################
-# An Amazon S3 trigger that retrieves metadata for the object that has been updated. #
+# An Amazon S3 trigger that retrieves metadata for the object that has been uploaded.#
 ######################################################################################
 
 import json
