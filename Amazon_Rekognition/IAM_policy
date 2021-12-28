@@ -1,0 +1,30 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "dynamodb:PutItem",
+                "rekognition:*"
+            ],
+            "Resource": "*"
+        },
+        {
+            "Sid": "VisualEditor1",
+            "Effect": "Allow",
+            "Action": [
+                "s3:GetObject",
+                "logs:CreateLogStream",
+                "s3:ListBucket",
+                "logs:CreateLogGroup",
+                "logs:PutLogEvents"
+            ],
+            "Resource": [
+                "arn:aws:logs:*:*:*",
+                "arn:aws:s3:::bucket-name-rekognition-source/*",
+                "arn:aws:s3:::bucket-name-rekognition-source"
+            ]
+        }
+    ]
+}
