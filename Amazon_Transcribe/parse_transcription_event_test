@@ -1,0 +1,14 @@
+{
+  "version": "0",
+  "id": "event ID",
+  "detail-type": "Transcribe Job State Change",
+  "source": "aws.transcribe",
+  "account": "225565942696",
+  "time": "timestamp",
+  "region": "us-west-2",
+  "resources": [],
+  "detail": {
+    "TranscriptionJobName": "test_audio.mp3",
+    "TranscriptionJobStatus": "COMPLETED"
+  }
+}
