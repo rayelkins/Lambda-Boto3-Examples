@@ -1,5 +1,8 @@
-# Imports the tempfile module for temporary space
-# for generating thumbnail image
+'''
+Imports the tempfile module for temporary space
+for generating thumbnail image.
+'''
+
 import os
 # Imports the operating system module for access to env variables
 import tempfile

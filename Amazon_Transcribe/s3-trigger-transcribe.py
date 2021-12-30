@@ -1,7 +1,7 @@
-############################################################
-# This functions triggers the Transcribe service start job #
-# API after media file is uploaded to S3 source bucket.    #
-############################################################
+'''
+This functions triggers the Transcribe service start job API after media 
+file is uploaded to S3 source bucket.  
+'''
 
 # Import AWS SDK for Python
 import boto3

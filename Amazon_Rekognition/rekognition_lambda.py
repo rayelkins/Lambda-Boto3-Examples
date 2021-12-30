@@ -1,8 +1,8 @@
-################################################
-# Lambda function to invoke Amazon Rekognition #
-# recognize_celebrities based on s3 Put event  #
-################################################
-
+'''
+Lambda function to invoke Amazon Rekognition recognize_celebrities based on s3 Put API
+event. The image object contains multiple celebrity faces.
+'''
+  
 # Module required to worked with Lambda env variables
 import os
 

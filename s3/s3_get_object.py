@@ -1,6 +1,6 @@
-######################################################################################
-# An Amazon S3 trigger that retrieves metadata for the object that has been uploaded.#
-######################################################################################
+'''
+An Amazon S3 trigger that retrieves metadata for the object that has been uploaded.
+'''
 
 import json
 import urllib.parse
