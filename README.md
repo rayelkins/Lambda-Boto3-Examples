@@ -9,5 +9,5 @@ This repository contains sample/example AWS Lambda functions for real world scen
 # Requirements
 * [Create an AWS account](https://portal.aws.amazon.com/gp/aws/developer/registration/index.html) if you do not already have one and log in. *Admin full access IAM priviledges are recommended.* 
 * Git Installed *Optional*
-* Python 3.6 *(or higher)* plus PIP installed
+* Python 3.6 *(or higher)* plus PIP installed *(Python 3.8+ is required for arm64 instruction set architecture)*
 * [AWS Command Line Interface](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html) (AWS CLI) installed
